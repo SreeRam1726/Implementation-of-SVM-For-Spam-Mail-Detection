@@ -81,26 +81,17 @@ new_message_vect = vectorizer.transform(new_message)
 prediction = svm_model.predict(new_message_vect)
 print(f"Prediction: {'Spam' if prediction[0]==1 else 'Ham'}")
 
+/*
+Program to implement the SVM For Spam Mail Detection..
+Developed by:MANGA MUNI SREE RAM
+RegisterNumber:  25014279
+*/
+
 ```
 
 ## Output:
-Confusion Matrix:
- [[1]]
+<img width="1127" height="440" alt="Screenshot 2026-03-23 135231" src="https://github.com/user-attachments/assets/a384d0e3-5772-4291-b905-3fd1596d941d" />
 
-Accuracy Score: 1.0
-
-Classification Report:
-               precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00         1
-
-    accuracy                           1.00         1
-   macro avg       1.00      1.00      1.00         1
-weighted avg       1.00      1.00      1.00         1
-
-Prediction: Ham
-/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:407: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
-  warnings.warn(
 
 
 ## Result:
